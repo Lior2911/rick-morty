@@ -1,39 +1,9 @@
-@media screen and(max-width:600px) {
-  
+body{
+    background-color: greenyellow;
+}
+
 a{
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* end header */
-/* main */
-
-#home_page{
-  
-  
-  
-  
-}
-
-/* footer */
-
-}
