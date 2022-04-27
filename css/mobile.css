@@ -1,6 +1,41 @@
-a {
-  text-decoration: none;
-  color: white;
+@media screen and(max-width:600px) {
+  
+a{
+    color: white;
+    text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* end header */
+/* main */
+
+#home_page{
+  
+  
+  
+  
+}
+.sm_icons{
+  
+}
+/* footer */
+
+}
