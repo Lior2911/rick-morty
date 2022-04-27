@@ -1,37 +1,9 @@
-@media screen and(max-width:600px) {
-  
-header{
-    width: 550px;
-    height: 550px;
-    background-color: red;
-    border: 3px solid black;
+body{
+    background-color: greenyellow;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* end header */
-/* main */
-
-#home_page{
-  
-  
-  
-  
+a{
+    text-decoration: none;
+    color: white;
 }
-.sm_icons{
-  
-}
-/* footer */
 
-}
