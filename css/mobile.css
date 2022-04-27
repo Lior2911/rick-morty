@@ -1,15 +1,11 @@
 @media screen and(max-width:600px) {
   
-a{
-    color: white;
-    text-decoration: none;
+header{
+    width: 550px;
+    height: 550px;
+    background-color: red;
+    border: 3px solid black;
 }
-
-
-
-
-
-
 
 
 
