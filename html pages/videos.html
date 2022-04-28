@@ -11,27 +11,51 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="icon" href="icon/rick&morty-icon.png" />
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
 
   <body>
-    <header class="container-fluid bg-dark justify-content-center mb-5 ">
-      <div class="row g-5">
-          <div class="col-sm-1 col-md-2 align-self-center"><a href=""><img class="img-responsive" width="50" src="icon/rick&morty-icon.png" alt=""></a></div>
-          <div class="col-sm-1 col-md-3 "><a href="">HOME</a></div>
-          <div class="col-sm-1 col-md-3"><a href="">About US</a></div>
-          <div class="col-sm-1 col-md-3"><a href="">Contact US</a></div>
-          <div class="col-sm-1 col-md-3"><a href="html pages/videos.html" target="blank">Contact US</a></div>
+    <header class="container-fluid bg-dark sticky-top p-5 ">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top text-success align-bottom">
+        <a class="navbar-brand" href="/index.html">Rick & Morty</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav text-success">
+            <li class="nav-item">
+              <a class="nav-link " href="/html pages/videos.html" target="blank">videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html pages/about.html" target="blank">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html pages/conect us.html" target="blank">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html pages/conect us.html" target="blank">Conect-us</a>
+            </li>
+          </ul>
         </div>
-      </header>
-      
+      </nav>
+    </header>
 
-    <div class="container-fluid mt-4" id="home_page">
-      <div class="container bg-dark p-1 "></div>
       
-      <div class="container bg-dark p-1 mb-5">
+      <div class="container  p-1 mb-5 mt-5">
         <div class="row  bg-dark g-5">
+          <h1 class="display-4 text-success fst-italic">The 20 Best Rick And Morty Episodes, Ranked</h1>
+          <h1 class="lead text-success">Rick and Morty took the world by storm with its hilarious writing and great story-telling. But which episodes are the best in all the universes?</h1>
+          <p class="lead text-muted text-success">Throughout its five excellent seasons, Rick and Morty has consistently delivered the perfect blend of well-scripted humor and engaging storylines.</p>
           <div class="col-sm-12 col-md-3">
             <img src="/pictures/episods img/rick_s05e10.jfif" alt=""  class="img-thumbnail">
             <br><br>
@@ -106,43 +130,91 @@
         
       </div>
     </div>
-    <footer
-      class="container-fluied fixed-bottom bg-dark d-flex justify-content-evenly"
-      id="footer"
-    >
-      <div class="text-success">
-        <h3>Lior Aytegev</h3>
-        <a href="https://www.facebook.com/lior.aytegev" target="blank"
-          ><img src="icon/social media icons/facebook.png" alt=""
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/lior-aytegev-703a60235/"
-          target="blank"
-          ><img src="icon/social media icons/linkedin.png" alt=""
-        /></a>
-        <a href="https://github.com/Lior2911" target="blank"
-          ><img src="icon/social media icons/github.png" alt=""
-        /></a>
-        <a href="tel:0523278300" target="blank"
-          ><img src="icon/social media icons/phone.png" alt=""
-        /></a>
+
+    <footer class="container-fluid bg-dark fixed-bottom p-4">
+      <div class="d-flex float-start">
+        <div class="row">
+          <div class="col col-md-3">
+            <a href="https://www.facebook.com/lior.aytegev" target="_blank"
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/facebook.png"
+                alt=""
+            /></a>
+          </div>
+
+          <div class="col col-md-3">
+            <a href="https://github.com/Lior2911" target="_blank"
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/github.png"
+                alt=""
+            /></a>
+          </div>
+
+          <div class="col col-md-3">
+            <a href="https://www.linkedin.com/in/lior-aytegev-703a60235/" target="_blank"
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/linkedin.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="col col-md-3">
+            <a href="tel:0523278300" target="blank"
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/phone.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
       </div>
 
-      <div class="text-success h3">
-        <h3>Solomon Avraham </h3>
 
-        <a
-          href="https://www.linkedin.com/in/solomon-avraham-82b8a2234/"
+
+
+
+
+      <div class="d-flex float-end">
+        <div class="row">
+          <div class="col col-md-3">
+            <a href="https://github.com/SolomonAvraham/" target="blank"
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/github.png"
+                alt=""
+            /></a>
+          </div>
+
+          <div class="col col-md-3">
+            <a href="https://www.linkedin.com/in/solomon-avraham-82b8a2234/"
           target="blank"
-          ><img src="icon/social media icons/linkedin.png" alt="" class="sm_icons"
-        /></a>
-        <a href="https://github.com/SolomonAvraham/" target="blank"
-          ><img src="icon/social media icons/github.png" alt="" class="sm_icons"
-        /></a>
-        <a href="tel:0549727138" target="blank"
-          ><img src="icon/social media icons/phone.png" alt="" class="sm_icons"
-        /></a>
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/linkedin.png"
+                alt=""
+            /></a>
+          </div>
+          <div class="col col-md-3">
+            <a href="tel:+972-549727138" target="blank"
+              ><img
+                class="img-responsive"
+                width="20"
+                src="icon/social media icons/phone.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
+
   </body>
 </html>
