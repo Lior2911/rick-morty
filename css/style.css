@@ -1,5 +1,9 @@
 #con{
   max-width: 800px;
-  background-image: url(../pictu);
+  
   
 }
+
+
+.container-fluid .container{ max-width: 800px;};
+
