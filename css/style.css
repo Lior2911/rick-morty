@@ -1,18 +1,5 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#con{
+  max-width: 800px;
+  background-image: url(../pictu);
   
-}
-
-a {
-  text-decoration: none;
-  color: #00cc66;
-}
-
-.bg-image{
-background-image: url(/rick-morty/pictures/main-bg-mobile/main-bg-mobile-2.png);
-
-height: 100%;
-/* background-color: blue; */
 }
