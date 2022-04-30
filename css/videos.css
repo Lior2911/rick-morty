@@ -1,6 +1,5 @@
-
-
-img:hover{
-  width: 40vw;
-
+.container{
+  max-width: 900px;
+  
 }
+
