@@ -1,8 +1,22 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
+#home_page_img{
+ animation-name: intro;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ 
+ 
+  
+  
+}
+@keyframes intro {
+  0%{opacity: 10%;}
+  25%{opacity: 80%;}
+  50%{opacity: 15%;}
+  100%{opacity: 100%;}
+ 
+}
+.container{
+  max-width: 900px;
+  
+}
 
